@@ -212,7 +212,8 @@ creates a friendship
 #### BODY
 ```json
 {
-  "uuids": ["first UUID", "second UUID"]
+  "friend_a": "<UUID>",
+  "friend_b": "<UUID>"
 }
 ```
 
@@ -263,7 +264,8 @@ creates a friendship
 #### BODY
 ```json
 {
-  "uuids": ["<UUID_1>", "<UUID_2>"]
+  "friend_a": "<UUID>",
+  "friend_b": "<UUID>"
 }
 ```
 
