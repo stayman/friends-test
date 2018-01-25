@@ -14,13 +14,13 @@ Upon creation, each person will be assigned a UUID that will be used to identify
 All entities should include timestamps for `created_at` and `last_modified`
 
 ### People
-- `id`: pkey
+- `seq`: pkey
 - `uuid`: unique id generated at creation (string)
 - `name`: the person's name (string) `UNIQUE` `REQUIRED`
 - `deleted`: has this person been removed from the db (boolean) `DEFAULT FALSE`
 
 ### Friendships
-- `id`: pkey
+- `seq`: pkey
 - `friend_a`: the `id` of a single person `REQUIRED` 
 - `friend_b`: the `id` of a single person `REQUIRED`
 - `deleted`: has this friendship been revoked (boolean) `DEFAULT FALSE`
