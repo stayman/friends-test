@@ -225,10 +225,6 @@ creates a friendship
     ],
     "success": true
   },
-  "person": {
-    "uuid": "<UUID>",
-    "name": "<NAME>"
-  },
   "friends": [
     {
       "uuid": "<UUID>",
@@ -250,14 +246,14 @@ creates a friendship
 }
 ```
 
-#### Error Response (Already friends)
+#### Success Response (Already friends)
 ```json
 {
   "status": {
     "messages": [
-      "These people are already friends"
+      "Friendship successfully created"
     ],
-    "success": false
+    "success": true
   }
 }
 ```
